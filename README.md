@@ -5,7 +5,7 @@
 **Projecte Bàsic d'Enginyeria** — Grau en Enginyeria de Tecnologies i Serveis de Telecomunicació (UPC)
 
 ![Estado](https://img.shields.io/badge/estado-en%20desarrollo-orange)
-![Último report](https://img.shields.io/badge/último%20report-20%2F10%2F2026-blue)
+![Último report](https://img.shields.io/badge/último%20report-04%2F11%2F2026-blue)
 ![Universidad](https://img.shields.io/badge/UPC-ETSETB-0b5394)
 
 </div>
@@ -63,5 +63,6 @@ pbe-team1/
 |-------|--------------|
 | 20/10/2026 | [ProgressReport_PBE_20_10_26.pptx](Progress%20Reports/ProgressReport_PBE_20_10_26.pptx) |
 | 28/10/2026 | [ProgressReport_PBE_28_10_26.pptx](Progress%20Reports/ProgressReport_PBE_28_10_26.pptx) |
+| 04/11/2026 | [ProgressReport_PBE_04_11_26.pptx](Progress%20Reports/ProgressReport_PBE_04_11_26.pptx) |
 
 Todos los informes están en la carpeta [`Progress Reports`](Progress%20Reports).
