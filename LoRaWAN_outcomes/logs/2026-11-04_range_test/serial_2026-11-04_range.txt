@@ -1,0 +1,82 @@
+Version modulo: ARD-078 1.2.3
+DevEUI: a8610a3539227306
+Join correcto
+SF fijado a SF7 (DR5)
+Listo. Comandos: SF7..SF12, N<bytes>, o texto libre.
+MSG 1 | SF7 | 5 B | t=417 s | ABCDE
+  -> enviado al modulo LoRa
+SF fijado a SF7 (DR5)
+MSG 2 | SF7 | 5 B | t=1016 s | ABCDE
+  -> enviado al modulo LoRa
+Version modulo: ARD-078 1.2.3
+DevEUI: a8610a3539227306
+Join correcto
+SF fijado a SF7 (DR5)
+Listo. Comandos: SF7..SF12, N<bytes>, o texto libre.
+Version modulo: ARD-078 1.2.3
+DevEUI: a8610a3539227306
+Join correcto
+SF fijado a SF7 (DR5)
+Listo. Comandos: SF7..SF12, N<bytes>, o texto libre.
+MSG 1 | SF7 | 5 B | t=42 s | ABCDE
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 2 | SF7 | 5 B | t=62 s | ABCDE
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+Version modulo: ARD-078 1.2.3
+DevEUI: a8610a3539227306
+Join correcto
+SF fijado a SF7 (DR5)
+Listo. Comandos: SF7..SF12, N<bytes>, o texto libre.
+MSG 1 | SF7 | 5 B | t=32 s | ABCDE
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 2 | SF7 | 5 B | t=52 s | ABCDE
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 3 | SF7 | 5 B | t=73 s | ABCDE
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 4 | SF7 | 5 B | t=449 s | ABCDE
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 5 | SF7 | 50 B | t=465 s | ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWX
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 6 | SF7 | 5 B | t=488 s | ABCDE
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 7 | SF7 | 50 B | t=514 s | ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWX
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 8 | SF7 | 5 B | t=565 s | ABCDE
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 9 | SF7 | 50 B | t=585 s | ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWX
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 10 | SF7 | 50 B | t=610 s | ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWX
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 11 | SF7 | 5 B | t=630 s | ABCDE
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 12 | SF7 | 50 B | t=653 s | ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWX
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 13 | SF7 | 5 B | t=681 s | ABCDE
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 14 | SF7 | 50 B | t=701 s | ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWX
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 15 | SF7 | 5 B | t=722 s | ABCDE
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 16 | SF7 | 50 B | t=728 s | ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWX
+  -> DR configurado en el modulo: 5
+  -> ERROR al enviar (payload demasiado grande para este SF o duty cycle)
+MSG 17 | SF7 | 50 B | t=749 s | ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWX
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
