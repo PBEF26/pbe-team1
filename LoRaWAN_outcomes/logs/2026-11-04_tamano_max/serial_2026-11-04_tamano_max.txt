@@ -1,0 +1,12 @@
+MSG 18 | SF7 | 100 B | t=1455 s | ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUV
+  -> DR configurado en el modulo: 5
+  -> ERROR al enviar (payload demasiado grande para este SF o duty cycle)
+MSG 19 | SF7 | 60 B | t=1538 s | ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGH
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 20 | SF7 | 64 B | t=1558 s | ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKL
+  -> DR configurado en el modulo: 5
+  -> enviado al modulo LoRa
+MSG 21 | SF7 | 65 B | t=1581 s | ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLM
+  -> DR configurado en el modulo: 5
+  -> ERROR al enviar (payload demasiado grande para este SF o duty cycle)
