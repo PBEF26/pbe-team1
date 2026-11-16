@@ -11,6 +11,7 @@ Comunicación LoRaWAN entre un Arduino MKR WAN 1310 y The Things Stack (TTS Sand
 | Carpeta / archivo | Qué es |
 |---|---|
 | `arduino/LoraSendAndReceive_PBE/` | Sketch del MKR WAN 1310: envía por LoRaWAN lo que se escribe en el Monitor Serie y muestra los downlinks |
+| `arduino/LoraRangeTest_PBE/` | Sketch del range test y de la prueba de tamaño máximo (tasks 6 y 7): comandos `SF7`…`SF12` y `N<bytes>` por el Monitor Serie, uplinks no confirmados |
 | `arduino/arduino_secrets.example.h` | Plantilla de credenciales OTAA (sin claves reales) |
 | `tts/payload_formatter.js` | Formatter de TTS: decodeUplink, encodeDownlink, decodeDownlink |
 | `tts/formatter_tests.md` | Pruebas del formatter con entradas conocidas |
@@ -32,10 +33,13 @@ Base: ejemplo `LoraSendAndReceive` de la librería MKRWAN, con banda EU868. Nota
 - **Uplink (FPort 2), 5 bytes:** msgtype, avrgPulse, maxPulse, minPulse, stdPulse (1 byte cada uno, 0-255). Propuesta de resumen ECG, pendiente de acuerdo del grupo.
 - **Downlink (FPort 1), 4 bytes:** samplingRate (índice en 10/100/1000), healthReport (índice en VISIT DOCTOR/STABLE/GOOD), msgType, updateRate.
 
-## Estado (28/10/2026)
+## Estado (04/11/2026)
 
 - Uplink Arduino → TTIG → TTS: funcionando.
 - Downlink: verificado el 28/10 (TTS → gateway → Arduino), con bytes y payload decodificado.
+- Range test (04/11): 13/13 uplinks recibidos a 0, 1, 3 y 6 m, todos a SF7. Con ADR desactivado el módulo confirmaba DR5 pero transmitía a SF12, por eso se usó ADR activado.
+- Tamaño máximo de payload con MKRWAN: 64 B (65 B devuelve error; el máximo teórico a SF7 es 222 B).
+- Task 9: mensaje de pulsos 01 48 5A 3C 05 emulado con Simulate uplink y decodificado por el formatter.
 
 ## Uso de IA
 

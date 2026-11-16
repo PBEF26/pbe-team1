@@ -1,5 +1,5 @@
 LogsOutline - PBE Team 1 - B1 LoRaWAN
-Horas en hora local (CEST). Los JSON de TTS usan UTC (local = UTC + 2 h hasta el 25/10/2026).
+Horas en hora local. Los JSON de TTS usan UTC (local = UTC + 2 h hasta el 25/10/2026; UTC + 1 h desde el 26/10).
 
 [2026-10-21] Uplink (T01-T03) y primer downlink (T04)
   Inicio: 09:45 (join)   Fin: 10:18
@@ -32,3 +32,17 @@ Horas en hora local (CEST). Los JSON de TTS usan UTC (local = UTC + 2 h hasta el
     09:36  Downlink 01 02 01 78 en cola, decodificado por el formatter (GOOD, 100, 1, 120)
     09:38  T06  SF8   -> downlink enviado a 868,1 MHz (SF8)  -> Arduino: Received: 01 02 01 78
   Resultado: downlink verificado de punta a punta. Nota: el reloj del PC va ~10 s por delante de TTS.
+
+[2026-11-04] Range test (Task 6), tamaño máximo (Task 7) y emulación (Task 9)
+  Dispositivo: pbe-team1-arduino (DevAddr 26 0B 79 27)   Sketch: arduino/LoraRangeTest_PBE
+  Intento con SF fijo (ADR desactivado): 09:18 - 09:32, 3 uplinks, todos recibidos a SF12 aunque el módulo indicaba DR5
+  Range test (ADR activado): 09:48:38 - 09:53:39, MSG 4-17 (f_cnt 3-15)
+    P1 0 m: 09:48:38 - 09:49:43   P2 1 m: 09:50:34 - 09:51:39
+    P3 3 m: 09:52:02 - 09:53:11   P4 6 m: 09:53:17 - 09:53:39
+    Resultado: 13/13 recibidos a SF7; MSG 16 no enviado (duty cycle, 6 s tras el anterior)
+    Archivos: logs/2026-11-04_range_test/app_2026-11-04_range.json, serial_2026-11-04_range.txt
+    Nota: el Live data del gateway no se capturó; la recepción de gateway-team1 está en rx_metadata del JSON de la aplicación
+  Tamaño máximo: 10:05 - 10:07. 60 B y 64 B recibidos (73 B y 77 B en el gateway); 100 B y 65 B dan ERROR en el Arduino
+    Archivos: logs/2026-11-04_tamano_max/ (app_..., gateway_..., serial_2026-11-04_tamano_max.txt)
+  Emulación Task 9: 10:27:08, Simulate uplink FPort 2, payload 01 48 5A 3C 05 -> decodificado (msgtype 1, 72, 90, 60, 5)
+    Archivo: logs/2026-11-04_emulacion/app_2026-11-04_task9_emulate.json (incluye también los 2 uplinks de la prueba de tamaño)
