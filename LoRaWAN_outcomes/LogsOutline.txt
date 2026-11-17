@@ -33,6 +33,14 @@ Horas en hora local. Los JSON de TTS usan UTC (local = UTC + 2 h hasta el 25/10/
     09:38  T06  SF8   -> downlink enviado a 868,1 MHz (SF8)  -> Arduino: Received: 01 02 01 78
   Resultado: downlink verificado de punta a punta. Nota: el reloj del PC va ~10 s por delante de TTS.
 
+[2026-10-28] Redundancia (Task 5)
+  Dispositivo: pbe-team1-arduino (DevAddr 26 0B B7 0E, join nuevo)   Gateway propio: gateway-team1
+  Fase 1, gateway-team1 encendido: 10:27:50  R1 (52 31)  SF12 867,3 MHz -> 3 gateways (gateway-team1 -71, lora-pbe -90, pbe-telematica -107 dBm)
+  Fase 2, gateway-team1 desconectado (gs.gateway.disconnect 10:40:03): 10:40:27  R2 (52 32)  SF8 867,1 MHz
+    -> 3 gateways sin el nuestro (gateway3-pbe -90, pbe-telematica -99, lora-pbe -114 dBm); el ACK sale por gateway3-pbe
+  Archivos: logs/2026-10-28_redundancia/ (app_..._fase1.json, app_..._fase2.json, gateway_..._fase1.json, gateway_..._fase2.json)
+  Monitor Serie de la redundancia: no se guardó como archivo (evidencia en capturas del PPT)
+
 [2026-11-04] Range test (Task 6), tamaño máximo (Task 7) y emulación (Task 9)
   Dispositivo: pbe-team1-arduino (DevAddr 26 0B 79 27)   Sketch: arduino/LoraRangeTest_PBE
   Intento con SF fijo (ADR desactivado): 09:18 - 09:32, 3 uplinks, todos recibidos a SF12 aunque el módulo indicaba DR5

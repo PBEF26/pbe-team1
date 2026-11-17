@@ -1,0 +1,342 @@
+[
+  {
+    "time": "2026-10-28T09:40:34.229Z",
+    "name": "synthetic.status.reconnected",
+    "isError": false,
+    "isSynthetic": true,
+    "unique_id": "synthetic.1793180434229"
+  },
+  {
+    "time": "2026-10-28T09:40:28.995Z",
+    "name": "synthetic.status.closed",
+    "isError": false,
+    "isSynthetic": true,
+    "unique_id": "synthetic.1793180428995"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2026-10-28T09:40:27.762354194Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "pbe-team1-arduino",
+          "application_ids": {
+            "application_id": "pbe-team1-2026"
+          },
+          "dev_eui": "A8610A3539227306",
+          "join_eui": "0000000000000001",
+          "dev_addr": "260BB70E"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YA63CyalAQADUP8AAcLEWuo=",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "wsRa6g==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260BB70E",
+            "f_ctrl": {
+              "adr": true,
+              "ack": true
+            },
+            "f_cnt": 1,
+            "f_opts": "A1D/AAE="
+          },
+          "full_f_cnt": 1
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "ChoKGAoMZ2F0ZXdheTMtcGJlEghYoMv//oByJhCkyqSpARoMCIuGh9cGEMmRq7EBIKCp5MWqCg=="
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 8,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "867100000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 9,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "869525000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "EU_863_870_TTN"
+      },
+      "correlation_ids": [
+        "gs:uplink:01M60Y3S2W4GQRGNP7X3XG61MG",
+        "ns:downlink:01M60Y3SFJK4XKRJDKJ9R7B081",
+        "ns:transmission:01M60Y3SFJ8QQY3B65FYAPJG21"
+      ]
+    },
+    "correlation_ids": [
+      "gs:uplink:01M60Y3S2W4GQRGNP7X3XG61MG",
+      "ns:downlink:01M60Y3SFJK4XKRJDKJ9R7B081",
+      "ns:transmission:01M60Y3SFJ8QQY3B65FYAPJG21"
+    ],
+    "origin": "ip-10-100-12-125.eu-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01M60Y3SFJ98VGTJ549345MBRS"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2026-10-28T09:40:27.565140280Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "pbe-team1-arduino",
+          "application_ids": {
+            "application_id": "pbe-team1-2026"
+          },
+          "dev_eui": "A8610A3539227306",
+          "join_eui": "0000000000000001",
+          "dev_addr": "260BB70E"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "pbe-team1-arduino",
+        "application_ids": {
+          "application_id": "pbe-team1-2026"
+        },
+        "dev_eui": "A8610A3539227306",
+        "join_eui": "0000000000000001",
+        "dev_addr": "260BB70E"
+      },
+      "correlation_ids": [
+        "gs:uplink:01M60Y3S2W4GQRGNP7X3XG61MG"
+      ],
+      "received_at": "2026-10-28T09:40:27.560078243Z",
+      "uplink_message": {
+        "session_key_id": "AaGB1V+htp13au4cBVdfzg==",
+        "f_port": 2,
+        "f_cnt": 1,
+        "frm_payload": "UjI=",
+        "decoded_payload": {
+          "avrgPulse": 50,
+          "maxPulse": null,
+          "minPulse": null,
+          "msgtype": 82,
+          "stdPulse": null
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "pbe-telematica-gateway",
+              "eui": "58A0CBFFFE8071D2"
+            },
+            "time": "2026-10-28T09:40:27.293353080Z",
+            "timestamp": 798250068,
+            "rssi": -99,
+            "channel_rssi": -99,
+            "snr": 10.5,
+            "uplink_token": "CiQKIgoWcGJlLXRlbGVtYXRpY2EtZ2F0ZXdheRIIWKDL//6AcdIQ1KjR/AIaDAiLhofXBhCWr+OpASCg0KXbnRc=",
+            "received_at": "2026-10-28T09:40:27.307320100Z"
+          },
+          {
+            "gateway_ids": {
+              "gateway_id": "lora-pbe",
+              "eui": "58A0CBFFFE807238"
+            },
+            "time": "2026-10-28T09:40:27.283132076Z",
+            "timestamp": 1232035140,
+            "rssi": -114,
+            "channel_rssi": -114,
+            "snr": -5.25,
+            "uplink_token": "ChYKFAoIbG9yYS1wYmUSCFigy//+gHI4EMS6vcsEGgwIi4aH1wYQi/PvqgEgoKOR2O0j",
+            "received_at": "2026-10-28T09:40:27.305883809Z"
+          },
+          {
+            "gateway_ids": {
+              "gateway_id": "gateway3-pbe",
+              "eui": "58A0CBFFFE807226"
+            },
+            "time": "2026-10-28T09:40:27.305895090Z",
+            "timestamp": 355018020,
+            "rssi": -90,
+            "channel_rssi": -90,
+            "snr": 10.75,
+            "uplink_token": "ChoKGAoMZ2F0ZXdheTMtcGJlEghYoMv//oByJhCkyqSpARoMCIuGh9cGEMmRq7EBIKCp5MWqCg==",
+            "received_at": "2026-10-28T09:40:27.342076354Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 8,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "867100000",
+          "timestamp": 798250068,
+          "time": "2026-10-28T09:40:27.293353080Z"
+        },
+        "received_at": "2026-10-28T09:40:27.356604248Z",
+        "confirmed": true,
+        "consumed_airtime": "0.092672s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000181",
+          "tenant_id": "ttn",
+          "cluster_id": "eu1",
+          "cluster_address": "eu1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01M60Y3S2W4GQRGNP7X3XG61MG"
+    ],
+    "origin": "ip-10-100-6-93.eu-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01M60Y3S9D2Z48G00XJ3GDCPYB"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2026-10-28T09:40:27.558874409Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "pbe-team1-arduino",
+          "application_ids": {
+            "application_id": "pbe-team1-2026"
+          },
+          "dev_eui": "A8610A3539227306",
+          "join_eui": "0000000000000001",
+          "dev_addr": "260BB70E"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "gA63CyaCAQADBwI6tFRUo6o=",
+      "payload": {
+        "m_hdr": {
+          "m_type": "CONFIRMED_UP"
+        },
+        "mic": "VFSjqg==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260BB70E",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 1,
+            "f_opts": "Awc="
+          },
+          "f_port": 2,
+          "frm_payload": "OrQ=",
+          "full_f_cnt": 1
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 8,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "867100000",
+        "timestamp": 798250068,
+        "time": "2026-10-28T09:40:27.293353080Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "pbe-telematica-gateway",
+            "eui": "58A0CBFFFE8071D2"
+          },
+          "time": "2026-10-28T09:40:27.293353080Z",
+          "timestamp": 798250068,
+          "rssi": -99,
+          "channel_rssi": -99,
+          "snr": 10.5,
+          "uplink_token": "CiQKIgoWcGJlLXRlbGVtYXRpY2EtZ2F0ZXdheRIIWKDL//6AcdIQ1KjR/AIaDAiLhofXBhCWr+OpASCg0KXbnRc=",
+          "received_at": "2026-10-28T09:40:27.307320100Z"
+        },
+        {
+          "gateway_ids": {
+            "gateway_id": "lora-pbe",
+            "eui": "58A0CBFFFE807238"
+          },
+          "time": "2026-10-28T09:40:27.283132076Z",
+          "timestamp": 1232035140,
+          "rssi": -114,
+          "channel_rssi": -114,
+          "snr": -5.25,
+          "uplink_token": "ChYKFAoIbG9yYS1wYmUSCFigy//+gHI4EMS6vcsEGgwIi4aH1wYQi/PvqgEgoKOR2O0j",
+          "received_at": "2026-10-28T09:40:27.305883809Z"
+        },
+        {
+          "gateway_ids": {
+            "gateway_id": "gateway3-pbe",
+            "eui": "58A0CBFFFE807226"
+          },
+          "time": "2026-10-28T09:40:27.305895090Z",
+          "timestamp": 355018020,
+          "rssi": -90,
+          "channel_rssi": -90,
+          "snr": 10.75,
+          "uplink_token": "ChoKGAoMZ2F0ZXdheTMtcGJlEghYoMv//oByJhCkyqSpARoMCIuGh9cGEMmRq7EBIKCp5MWqCg==",
+          "received_at": "2026-10-28T09:40:27.342076354Z"
+        }
+      ],
+      "received_at": "2026-10-28T09:40:27.356604248Z",
+      "correlation_ids": [
+        "gs:uplink:01M60Y3S2W4GQRGNP7X3XG61MG"
+      ],
+      "device_channel_index": 3,
+      "consumed_airtime": "0.092672s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01M60Y3S2W4GQRGNP7X3XG61MG"
+    ],
+    "origin": "ip-10-100-12-125.eu-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01M60Y3S96SC8TF5TJHES0GRQ8"
+  },
+  {
+    "time": "2026-10-28T09:38:55.903Z",
+    "name": "synthetic.status.cleared",
+    "isError": false,
+    "isSynthetic": true,
+    "unique_id": "synthetic.1793180335903"
+  }
+]
