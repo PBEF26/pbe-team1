@@ -64,5 +64,6 @@ pbe-team1/
 | 20/10/2026 | [ProgressReport_PBE_20_10_26.pptx](Progress%20Reports/ProgressReport_PBE_20_10_26.pptx) |
 | 28/10/2026 | [ProgressReport_PBE_28_10_26.pptx](Progress%20Reports/ProgressReport_PBE_28_10_26.pptx) |
 | 04/11/2026 | [ProgressReport_PBE_04_11_26.pptx](Progress%20Reports/ProgressReport_PBE_04_11_26.pptx) |
+| 18/11/2026 | [ProgressReport_PBE_18_11_26.pptx](Progress%20Reports/ProgressReport_PBE_18_11_26.pptx) |
 
 Todos los informes están en la carpeta [`Progress Reports`](Progress%20Reports).
