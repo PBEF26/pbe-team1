@@ -1,0 +1,109 @@
+[
+  {
+    "name": "as.up.data.forward",
+    "time": "2026-11-04T08:18:53.693472424Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "pbe-team1-arduino",
+          "application_ids": {
+            "application_id": "pbe-team1-2026"
+          },
+          "dev_eui": "A8610A3539227306",
+          "join_eui": "0000000000000001",
+          "dev_addr": "260B43E7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "pbe-team1-arduino",
+        "application_ids": {
+          "application_id": "pbe-team1-2026"
+        },
+        "dev_eui": "A8610A3539227306",
+        "join_eui": "0000000000000001",
+        "dev_addr": "260B43E7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01M6JT7EXBBXEPKZX1CK66GN0D"
+      ],
+      "received_at": "2026-11-04T08:18:53.690818502Z",
+      "uplink_message": {
+        "session_key_id": "AaGlnXLgVvDRjl4uokFZYQ==",
+        "f_port": 2,
+        "frm_payload": "QUJDREU=",
+        "decoded_payload": {
+          "avrgPulse": 66,
+          "maxPulse": 67,
+          "minPulse": 68,
+          "msgtype": 65,
+          "stdPulse": 69
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "pbe-telematica-gateway",
+              "eui": "58A0CBFFFE8071D2"
+            },
+            "time": "2026-11-04T08:18:53.416342020Z",
+            "timestamp": 2349082108,
+            "rssi": -73,
+            "channel_rssi": -73,
+            "snr": 7.5,
+            "uplink_token": "CiQKIgoWcGJlLXRlbGVtYXRpY2EtZ2F0ZXdheRIIWKDL//6AcdIQ/MuQ4AgaDAjt1KvXBhDnws7mASDgwNGBr0Q=",
+            "received_at": "2026-11-04T08:18:53.424665849Z"
+          },
+          {
+            "gateway_ids": {
+              "gateway_id": "gateway-team1",
+              "eui": "58A0CBFFFE80722A"
+            },
+            "time": "2026-11-04T08:18:53.427459001Z",
+            "timestamp": 3481746540,
+            "rssi": -24,
+            "channel_rssi": -24,
+            "snr": 10,
+            "uplink_token": "ChsKGQoNZ2F0ZXdheS10ZWFtMRIIWKDL//6AcioQ7Pic/AwaDAjt1KvXBhD6l8rpASDgi5DCqmU=",
+            "received_at": "2026-11-04T08:18:53.431021631Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 12,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "868300000",
+          "timestamp": 2349082108,
+          "time": "2026-11-04T08:18:53.416342020Z"
+        },
+        "received_at": "2026-11-04T08:18:53.484447726Z",
+        "consumed_airtime": "1.318912s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E0000000181",
+          "tenant_id": "ttn",
+          "cluster_id": "eu1",
+          "cluster_address": "eu1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01M6JT7EXBBXEPKZX1CK66GN0D"
+    ],
+    "origin": "ip-10-100-12-183.eu-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01M6JT7F3XT47S8P3YZKXDEXZA"
+  }
+]

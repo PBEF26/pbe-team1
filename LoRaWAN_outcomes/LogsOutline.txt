@@ -36,6 +36,7 @@ Horas en hora local. Los JSON de TTS usan UTC (local = UTC + 2 h hasta el 25/10/
 [2026-11-04] Range test (Task 6), tamaño máximo (Task 7) y emulación (Task 9)
   Dispositivo: pbe-team1-arduino (DevAddr 26 0B 79 27)   Sketch: arduino/LoraRangeTest_PBE
   Intento con SF fijo (ADR desactivado): 09:18 - 09:32, 3 uplinks, todos recibidos a SF12 aunque el módulo indicaba DR5
+    Archivos: logs/2026-11-04_sf_fijo/app_2026-11-04_sf_fijo_0918.json, _0928.json, _0932.json (un uplink por archivo)
   Range test (ADR activado): 09:48:38 - 09:53:39, MSG 4-17 (f_cnt 3-15)
     P1 0 m: 09:48:38 - 09:49:43   P2 1 m: 09:50:34 - 09:51:39
     P3 3 m: 09:52:02 - 09:53:11   P4 6 m: 09:53:17 - 09:53:39
